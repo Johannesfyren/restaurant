@@ -1,4 +1,6 @@
-import printMe from './div_content.js';
+import pageLoad from './div_content.js';
 
-printMe();
+
+
+pageLoad();
 console.log("hello wwqeorld");
