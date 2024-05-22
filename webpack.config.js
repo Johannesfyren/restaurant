@@ -1,10 +1,14 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const { divContainer } = require('./src/div#content');
 
 module.exports = {
   entry: {
     index: './src/index.js',
-    print: './src/div_content.js',
+    home: './src/home.js',
+    about: './src/about.js',
+    menu: './src/menu.js',
+    divContent: './src/div#content'
   },
   output: {
     filename: '[name].js',
