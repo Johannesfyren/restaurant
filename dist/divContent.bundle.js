@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector("body"),document.createElement("div").classList.add="content",document.createElement("h1"),document.createElement("p")})();
